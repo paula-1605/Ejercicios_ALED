@@ -14,7 +14,7 @@ class TestAlmacenPalabras {
 		assertTrue(palabra.add("me llamo"));
 		assertTrue(palabra.contains("me llamo"));
 		
-		assertFalse(palabra.add("Paula"));
+		assertFalse(palabra.add("Paula")); //esta palabra ya no debería de incluirla
 		assertFalse(palabra.contains("Paula"));
 		
 	}
